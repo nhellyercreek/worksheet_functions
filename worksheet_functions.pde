@@ -1,12 +1,9 @@
-boolean s = true;
 void setup() {
   size(400,400);
   background(255); 
 }
 void draw() {
-  if (s == true){
     t(int(random(400)),int(random(400)),400);
-  }
 }
 void t(int x, int y, int z) {
   fill(0,255,0);
@@ -20,5 +17,4 @@ void t(int x, int y, int z) {
 }
 void mousePressed() {
   background(255);
-  s=false;
 }
